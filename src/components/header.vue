@@ -1,6 +1,6 @@
 <template>
-    <nav>
-        <ul class="bg-[#333] fixed m-auto flex justify-center  gap-7 top-0 w-full h-[44px] items-center sm:hidden md:inline-flex">
+    <nav class="sm:hidden md:block">
+        <ul class="bg-[#333] fixed m-auto flex justify-center  gap-7 top-0 w-full h-[44px] items-center  ">
             <li class="text-[#AEAEAE]"><font-awesome-icon class="text-white-500" icon="fa-brands fa-apple" /></li>
             <li class="text-[#AEAEAE]">Store</li>
             <li class="text-[#AEAEAE]">Mac</li>
@@ -15,7 +15,7 @@
         </ul>
     </nav>
 
-        <nav class="bg-black">
+        <nav class="bg-black md:hidden">
             <div class="">
             <p class="text-white">X</p>
             <p class="text-white">Apple logo</p>
