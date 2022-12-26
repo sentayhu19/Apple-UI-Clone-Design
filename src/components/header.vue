@@ -22,19 +22,28 @@
             <p class="text-white m-auto">Apple logo</p>
         </div>
     
-        <input type='text' class="bg-[#1D1D1F] w-[92%] h-[40px] m-auto ml-[12px] mr-[12px] rounded-lg"/>
+        <input type='text' class="bg-[#1D1D1F] w-[92%] h-[40px] m-auto ml-[15px] mr-[12px] rounded-lg"/>
     <hr class="bg-[#AEAEAE] mt-5"/>
-        <ul class="">
+        <ul class="pl-[38px]">
          <li class="text-[#AEAEAE]"><font-awesome-icon class="text-white-500" icon="fa-brands fa-apple" /></li>
             <li class="text-[#AEAEAE]">Store</li>
-            <li class="text-[#AEAEAE]">Mac</li>
+            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
+            <li class="text-[#AEAEAE] w-80">Mac</li>
+            <hr class="bg-[#AEAEAE] mt-5 w-[90%]" />
             <li class="text-[#AEAEAE]">iPad</li>
+            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
             <li class="text-[#AEAEAE]">iPhone</li>
+            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
             <li class="text-[#AEAEAE]">Watch</li>
+            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
             <li class="text-[#AEAEAE]">AirPods</li>
+            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
             <li class="text-[#AEAEAE]">Tv & Home</li>
+            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
             <li class="text-[#AEAEAE]">Only on Apple</li>
+            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
             <li class="text-[#AEAEAE]">Accessories</li>
+            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
             <li class="text-[#AEAEAE]">Support</li>
         </ul>
     </nav>
