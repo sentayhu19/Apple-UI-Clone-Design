@@ -18,7 +18,7 @@
 
         <nav class="bg-black md:hidden w-full h-[100vh]" >
             <div class="flex w-96 items-center h-10">
-            <p class="text-white p-5">X</p>
+            <p class="text-white p-5" v-on:click="">X</p>
             <p class="text-white m-auto">Apple logo</p>
         </div>
     
@@ -26,25 +26,16 @@
     <hr class="bg-[#AEAEAE] mt-5"/>
         <ul class="pl-[38px]">
          <li class="text-[#AEAEAE]"><font-awesome-icon class="text-white-500" icon="fa-brands fa-apple" /></li>
-            <li class="text-[#AEAEAE]">Store</li>
-            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
-            <li class="text-[#AEAEAE] w-80">Mac</li>
-            <hr class="bg-[#AEAEAE] mt-5 w-[90%]" />
-            <li class="text-[#AEAEAE]">iPad</li>
-            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
-            <li class="text-[#AEAEAE]">iPhone</li>
-            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
-            <li class="text-[#AEAEAE]">Watch</li>
-            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
-            <li class="text-[#AEAEAE]">AirPods</li>
-            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
-            <li class="text-[#AEAEAE]">Tv & Home</li>
-            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
-            <li class="text-[#AEAEAE]">Only on Apple</li>
-            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
-            <li class="text-[#AEAEAE]">Accessories</li>
-            <hr class="bg-[#AEAEAE] mt-5 w-[90%]"/>
-            <li class="text-[#AEAEAE]">Support</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]  ">Store</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Mac</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">iPad</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">iPhone</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Watch</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">AirPods</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Tv & Home</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Only on Apple</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Accessories</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Support</li>
         </ul>
     </nav>
     
