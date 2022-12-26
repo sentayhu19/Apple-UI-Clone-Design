@@ -16,7 +16,7 @@
         </ul>
     </nav>
 
-        <nav class="bg-black md:hidden w-full" >
+        <nav class="bg-black md:hidden w-full h-[100vh]" >
             <div class="flex w-96 items-center h-10">
             <p class="text-white p-5">X</p>
             <p class="text-white m-auto">Apple logo</p>
