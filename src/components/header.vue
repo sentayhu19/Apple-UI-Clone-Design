@@ -1,3 +1,9 @@
+<script setup>
+import { ref } from "vue";
+const show = ref(false);
+
+</script>
+
 <template>
     <!-- Desk -->
     <nav class="sm:hidden md:block">
@@ -15,26 +21,33 @@
             <li class="text-[#AEAEAE] text-[12px]">Support</li>
         </ul>
     </nav>
+  
+    <nav >
+        <button @click="show = true">OPEN MENU ICON</Button>
+    </nav>
 
-        <nav class="bg-black md:hidden w-full h-[100vh]" >
+        <nav class="bg-black md:hidden w-full h-[100vh]" v-if="show" >
             <div class="flex w-96 items-center h-10">
-            <p class="text-white p-5" v-on:click="">X</p>
+            <p class="text-white p-5" @click="show = !show" >X</p>
             <p class="text-white m-auto">Apple logo</p>
         </div>
     
-        <input type='text' class="bg-[#1D1D1F] w-[92%] h-[40px] m-auto ml-[15px] mr-[12px] rounded-lg"/>
+        <input type='text' class="bg-[#1D1D1F] w-[92%] h-[40px] m-auto ml-[15px] mr-[12px] rounded-lg" placeholder="Search apple.com"/>
     <hr class="bg-[#AEAEAE] mt-5"/>
         <ul class="pl-[38px]">
-         <li class="text-[#AEAEAE]"><font-awesome-icon class="text-white-500" icon="fa-brands fa-apple" /></li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]  "><p class="pb-3 text-[17px]">Store</p></li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Mac</p></li>
+         <li class="text-[#AEAEAE]">
+            <!-- <font-awesome-icon class="text-white-500" icon="fa-brands fa-apple" /> -->
+            <font-awesome icon="fa-solid fa-user-secret"/>
+        </li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]  "><p class="pb-3 text-[17px]">Store <font-awesome icon="fa-solid fa-user-secret"/></p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-1 text-[17px]">Mac</p></li>
             <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">iPad</p></li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">iPhone</p></li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Watch</p></li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]"></p>AirPods</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Tv & Home</p></li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Only on Apple</p></li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Accessories</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-1 text-[17px]">iPhone</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-1 text-[17px]">Watch</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-1 text-[17px]"></p>AirPods</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-1 text-[17px]">Tv & Home</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-1 text-[17px]">Only on Apple</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-1 text-[17px]">Accessories</p></li>
             <li class="text-[#AEAEAE]  mt-5 w-[90%]"><p class="pb-2 text-[17px]">Support</p></li>
         </ul>
     </nav>
