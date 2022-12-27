@@ -22,5 +22,53 @@
     </div>
 </div>
 </div>
+<div class="flex max-h-[120px]  overflow-x-auto scrollbar-hide bg mt-5">
+    <div class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/mac1.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">Mac</p>
+    </div>
+    <div  class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/iphone2.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">IPhone</p>
+    </div>
+    <div  class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/tab3.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">iPad</p>
+    </div>
+    <div  class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/watch4.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">Apple Watch</p>
+    </div>
+    <div  class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/airpod5.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">AirPods</p>
+    </div>
+    <div  class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/airtag6.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">AirTag</p>
+    </div>
+    <div  class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/apple-tv7.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">Apple TV 4K</p>
+    </div>
+    <div  class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/pod8.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">Home Pod mini</p>
+    </div>
+    <div  class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/acc9.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">Accessories</p>
+    </div>
+    <div class="min-w-[100px] text-center mr-2px">
+        <img src="../assets/gift10.png" class="max-h-[60px]"/>
+        <p class="pt-2 text-[14px] ">Apple Gift Card</p>
+    </div>
+</div>
 </div>
 </template>
+
+<style>
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+</style>
