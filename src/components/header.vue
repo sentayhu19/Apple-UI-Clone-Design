@@ -26,16 +26,16 @@
     <hr class="bg-[#AEAEAE] mt-5"/>
         <ul class="pl-[38px]">
          <li class="text-[#AEAEAE]"><font-awesome-icon class="text-white-500" icon="fa-brands fa-apple" /></li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]  ">Store</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Mac</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">iPad</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">iPhone</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Watch</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">AirPods</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Tv & Home</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Only on Apple</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Accessories</li>
-            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]">Support</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]  "><p class="pb-3 text-[17px]">Store</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Mac</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">iPad</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">iPhone</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Watch</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]"></p>AirPods</li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Tv & Home</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Only on Apple</p></li>
+            <li class="text-[#AEAEAE] border-b-2 border-[#AEAEAE] mt-5 w-[90%]"><p class="pb-2 text-[17px]">Accessories</p></li>
+            <li class="text-[#AEAEAE]  mt-5 w-[90%]"><p class="pb-2 text-[17px]">Support</p></li>
         </ul>
     </nav>
     
