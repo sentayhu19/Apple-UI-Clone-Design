@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from "vue";
 const show = ref(false);
-
 </script>
 
 <template>
@@ -22,11 +21,15 @@ const show = ref(false);
         </ul>
     </nav>
   
-    <nav >
-        <button @click="show = true">OPEN MENU ICON</Button>
+    <nav v-if="!show" class="bg-[#333] h-[45px] pl-5 pr-5">
+        <div class="flex items-center justify-between ">
+        <button @click="show = true"><p class="text-[#AEAEAE] text-3xl">=</p></Button>
+            <p class="text-[#AEAEAE]">Apple logo</p>
+            <p class="text-[#AEAEAE]">Shop logo</p>
+        </div>
     </nav>
 
-        <nav class="bg-black md:hidden w-full h-[100vh]" v-if="show" >
+        <nav class="bg-black md:hidden w-full h-[100vh] " v-if="show" >
             <div class="flex w-96 items-center h-10">
             <p class="text-white p-5" @click="show = !show" >X</p>
             <p class="text-white m-auto">Apple logo</p>
