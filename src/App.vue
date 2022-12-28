@@ -6,7 +6,6 @@ import Hero from './components/hero.vue'
 </script>
 
 <template>
-  
  <Header/>
  <Hero/>
 </template>
