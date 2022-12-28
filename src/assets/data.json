@@ -1,0 +1,31 @@
+[ 
+     {      
+        "id": 1, 
+           "thumbnail": "../src/assets/emancipation-slide.jpg", 
+              "description": "Description for movie 1",
+                  "genere": "Drama"  
+                }, 
+ {   
+     "id": 2, 
+        "thumbnail": "../src/assets/see-slide.jpg", 
+           "description": "Description for movie 2", 
+              "genere": "Action"  
+            },  
+ {    "id": 3, 
+    "thumbnail": "../src/assets/morninig-slide.jpg",   
+     "description": "Description for movie 3",   
+      "genere": "Thriller"  
+      }
+      ,  
+ {    "id": 3, 
+    "thumbnail": "../src/assets/morninig-slide.jpg",   
+     "description": "Description for movie 3",   
+      "genere": "Thriller"  
+      }
+      ,  
+      {    "id": 3, 
+         "thumbnail": "../src/assets/morninig-slide.jpg",   
+          "description": "Description for movie 3",   
+           "genere": "Thriller"  
+           }
+    ]

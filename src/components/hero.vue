@@ -133,64 +133,35 @@
         
         </div>
         <div>
-            <div v-for="[key,value in a]">
-            {{key}} => {{value}}
-            </div>
+    <div   v-if="movies.length > 0">
+      <div class="flex w-full overflow-x-auto scrollbar-hide" v-for="movie in movies" :key="movie.id" >
+        <div class="movie-info">
+            <p>{{ movie.description }}</p>
+          <img :src=" movie.thumbnail" class="h-[495px]"/>
+          <p>Released: {{ movie.genere }}</p>
         </div>
+    </div>
+    </div>
+  </div>
+        
     </div>
 </template>
 
 <script>
-const movie = new vue ({
-movie1: {
-    genere: 'Drama',
-    description: '',
-    tumbnail: '',
-},
-movie2: {
-    genere: 'Animation',
-    description: '',
-    tumbnail: '',
-},
-movie3: {
-    genere: 'Comedy',
-    description: '',
-    tumbnail: '',
-},
-movie4: {
-    genere: 'Thriller',
-    description: '',
-    tumbnail: '',
-},
-movie5: {
-    genere: '',
-    description: '',
-    tumbnail: '',
-},
-movie6: {
-    genere: 'Documentary',
-    description: '',
-    tumbnail: '',
-},
-movie7: {
-    genere: 'Thriller',
-    description: '',
-    tumbnail: '',
-},
-movie8: {
-    genere: 'Drama',
-    description: '',
-    tumbnail: '',
-},
-movie9: {
-    genere: 'Drama',
-    description: '',
-    tumbnail: '',
-},
-movie10: {
-    genere: 'Thriller',
-    description: '',
-    tumbnail: '',
-},
-)}
+import axios from 'axios';
+      export default {
+  name: 'MovieList',
+  data() {
+    return {
+      movies: [],
+    };
+  },
+  created() {
+    // Fetch movie data from a JSON file or API
+    axios.get('../src/assets/data.json').then((response) => {
+         console.log("RESPONSE:  ",response.data)
+      this.movies = response.data;
+    });
+  },
+};
 </script>
