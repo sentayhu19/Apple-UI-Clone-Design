@@ -51,6 +51,86 @@
             </div>
             <img src="../assets/iphone-home.png" class="w-full h-full"/>
         </div>
+        <div class="mt-3">
+            <div class="bg-[#FBFBFB] h-30 pt-5 ">
+                <div class="flex flex-col">
+                    <div class="flex flex-col">
+                    <h2 class="text-black text-3xl">iPad</h2>
+                    <p class="text-black">Lovable. Drawable. Magical.</p>
+                    </div>
+                  
+                  
+                    <div class="flex text-center m-auto">
+                    <p class="text-[#06c]">Learn more ></p>
+                    <p class="text-[#06c]">Buy ></p>
+                </div>
+                </div>    
+            </div>
+            <img src="../assets/ipad-home.png" class="w-full h-full"/>
+        </div>
+        <div class="mt-3">
+            <div class="bg-[#FBFBFB] h-30 pt-5 ">
+                <div class="flex flex-col">
+                    <div class="flex flex-col">
+                    <h2 class="text-black text-3xl font-bold">Watch</h2>
+                    <p class="text-red-500 font-bold">ULTRA</p>
+                    </div>
+                  
+                    <h2 class="text-black">Adventure awaits.</h2>
+                    <div class="flex text-center gap-5 m-auto ">
+                    <p class="text-[#06c]">Learn more ></p>
+                    <p class="text-[#06c]">Buy ></p>
+                </div>
+                </div>    
+            </div>
+            <img src="../assets/watch-home.png" class="w-full h-full"/>
+        </div>
+        <div class="mt-3">
+            <div class="bg-black h-30 pt-5 ">
+                <div class="flex flex-col">
+                    <div class="flex flex-col">
+                    <h2 class="text-[#f5f5f7] text-3xl">AirPods Pro</h2>
+                    <p class="text-[#f5f5f7]">Rebuilt from the sound up.</p>
+                    </div>
+                    <div class="flex text-center gap-5 m-auto">
+                    <p class="text-[#06c]">Learn more ></p>
+                    <p class="text-[#06c]">Buy ></p>
+                </div>
+                </div>    
+            </div>
+            <img src="../assets/airpods-home.png" class="w-full h-full"/>
+        </div>
+        <div class="mt-3">
+            <div class="bg-[#FBFBFD] h-30 pt-5 ">
+                <div class="flex flex-col">
+                    <div class="flex flex-col">
+                    <h2 class="text-black font-bold text-3xl">MaacBook Air</h2>
+                    <p class="text-black">SuperCharged by M2</p>
+                    </div>
+                    <div class="flex text-center gap-5 m-auto">
+                    <p class="text-[#06c]">Learn more ></p>
+                    <p class="text-[#06c]">Buy ></p>
+                </div>
+                </div>    
+            </div>
+            <img src="../assets/mackbookair-home.png" class="w-full h-full"/>
+        </div>
+        <div class="mt-3">
+            <div class="bg-[#FBFBFD] h-30 pt-5 ">
+                <div class="flex flex-col">
+                    <div class="flex flex-col">
+                    <h2 class="text-black font-bold text-3xl">Card</h2>
+                    <p class="text-black w-full">Get up to 3% Daily Cash back with every purchase</p>
+                    </div>
+                    <div class="flex text-center gap-5 m-auto">
+                    <p class="text-[#06c]">Learn more ></p>
+                    <p class="text-[#06c]">Apply now ></p>
+                </div>
+                </div>    
+            </div>
+            <img src="../assets/card-home.png" class="w-full h-full"/>
+        </div>
+        
         </div>
     </div>
 </template>
