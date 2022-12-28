@@ -2,36 +2,36 @@
      {      
         "id": 1, 
            "thumbnail": "../src/assets/emancipation-slide.jpg", 
-              "description": "Description for movie 1",
+              "description": "Inspired by a greaping true story",
                   "genere": "Drama"  
                 }, 
  {   
      "id": 2, 
         "thumbnail": "../src/assets/see-slide.jpg", 
-           "description": "Description for movie 2", 
+           "description": "The epic series comes to an end", 
               "genere": "Action"  
             },  
  {    "id": 3, 
     "thumbnail": "../src/assets/morninig-slide.jpg",   
-     "description": "Description for movie 3",   
+     "description": "controll is an illusion",   
       "genere": "Thriller"  
       }
       ,  
  {    "id": 4, 
     "thumbnail": "../src/assets/ted-laso-scroll.webp",   
-     "description": "Description for movie 3",   
+     "description": "4 emmy wins award winning comedy",   
       "genere": "Thriller"  
       }
       ,  
       {    "id": 5, 
          "thumbnail": "../src/assets/echo-scroll.jpg",   
-          "description": "Description for movie 3",   
+          "description": "The rescue is the only beginning",   
            "genere": "Thriller"  
            }
            ,  
            {    "id": 6, 
               "thumbnail": "../src/assets/slow-horses-scroll.jpg",   
-               "description": "Description for movie 3",   
+               "description": "The very bottom of top secret",   
                 "genere": "Thriller"  
                 }
     ]

@@ -136,9 +136,13 @@
     <div    v-if="movies.length > 0">
         <div class="flex overflow-x-auto max-h-[530px] scrollbar-hide mt-5">
       <div class="min-w-[350px]" v-for="movie in movies" :key="movie.id" >
-            <p>{{ movie.description }}</p>
-          <img :src=" movie.thumbnail" class="h-[495px] max-w-[100%]"/>
-          <p>Genere: {{ movie.genere }}</p>
+        
+          <img :src=" movie.thumbnail" class="h-[495px] max-w-[100%] absolute"/>
+          <div class="relative z-10 text-center mt-[400px]">
+          <p class="text-[#DAD7D8] font-bold">{{ movie.genere }}</p>
+          <p class="text-[#DAD7D8] font-bold">{{ movie.description }}</p>
+          <button class="bg-white text-black border-red-100 rounded-[4px] font-bold ">Stream now ▷ </button>
+        </div>
     </div>
 </div>
     </div>
