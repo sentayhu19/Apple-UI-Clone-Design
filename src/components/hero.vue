@@ -133,14 +133,14 @@
         
         </div>
         <div>
-    <div   v-if="movies.length > 0">
-      <div class="flex w-full overflow-x-auto scrollbar-hide" v-for="movie in movies" :key="movie.id" >
-        <div class="movie-info">
+    <div    v-if="movies.length > 0">
+        <div class="flex overflow-x-auto max-h-[530px] scrollbar-hide mt-5">
+      <div class="min-w-[350px]" v-for="movie in movies" :key="movie.id" >
             <p>{{ movie.description }}</p>
-          <img :src=" movie.thumbnail" class="h-[495px]"/>
-          <p>Released: {{ movie.genere }}</p>
-        </div>
+          <img :src=" movie.thumbnail" class="h-[495px] max-w-[100%]"/>
+          <p>Genere: {{ movie.genere }}</p>
     </div>
+</div>
     </div>
   </div>
         
