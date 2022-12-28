@@ -132,5 +132,65 @@
         </div>
         
         </div>
+        <div>
+            <div v-for="[key,value in a]">
+            {{key}} => {{value}}
+            </div>
+        </div>
     </div>
 </template>
+
+<script>
+const movie = new vue ({
+movie1: {
+    genere: 'Drama',
+    description: '',
+    tumbnail: '',
+},
+movie2: {
+    genere: 'Animation',
+    description: '',
+    tumbnail: '',
+},
+movie3: {
+    genere: 'Comedy',
+    description: '',
+    tumbnail: '',
+},
+movie4: {
+    genere: 'Thriller',
+    description: '',
+    tumbnail: '',
+},
+movie5: {
+    genere: '',
+    description: '',
+    tumbnail: '',
+},
+movie6: {
+    genere: 'Documentary',
+    description: '',
+    tumbnail: '',
+},
+movie7: {
+    genere: 'Thriller',
+    description: '',
+    tumbnail: '',
+},
+movie8: {
+    genere: 'Drama',
+    description: '',
+    tumbnail: '',
+},
+movie9: {
+    genere: 'Drama',
+    description: '',
+    tumbnail: '',
+},
+movie10: {
+    genere: 'Thriller',
+    description: '',
+    tumbnail: '',
+},
+)}
+</script>
