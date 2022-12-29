@@ -1,6 +1,8 @@
 # apple-ui-clone
 
-This template should help get you started developing with Vue 3 in Vite.
+Apple UI Clone Design. Built with Vue and TailwindCSS.
+
+##Live demo comming soon
 
 ## Recommended IDE Setup
 
