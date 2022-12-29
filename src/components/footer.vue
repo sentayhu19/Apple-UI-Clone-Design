@@ -1,6 +1,6 @@
 <template>
     <section class="bg-[#F5F5F7] p-7 text-[#AAAAAD] text-[14px]">
-<div class="font-normal">
+<div class="font-normal text-[#7A7A7F]">
 <p class="pb-3">
     To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. 
     Update to the latest version by going to Settings > General > Software Update. Tap Download and Install.</p>
@@ -77,8 +77,9 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
     </div>
 
 </div>
+<div class="font-normal text-[#7A7A7F]">
 <p class="pb-4">
-    More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE.
+    More ways to shop: <span class="text-[#06c]">Find an Apple Store or other retailer </span> near you. Or call 1-800-MY-APPLE.
 </p>
 <p class="pb-4">
     United States
@@ -86,12 +87,13 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
 <p>
     Copyright © 2021 Apple Inc. All rights reserved.
 </p>
-<ul class="flex flex-wrap">
-    <li>Privacy Policy</li> |
-    <li>Terms of Use</li> |
-    <li>Sales and Refunds</li> |
-    <li>Legal</li> |
+<ul class="flex flex-wrap gap-2">
+    <li>Privacy Policy</li> | 
+    <li>Terms of Use</li> | 
+    <li>Sales and Refunds</li> | 
+    <li>Legal</li> | 
     <li>Site Map</li>
 </ul>
+</div>
     </section>
 </template>
