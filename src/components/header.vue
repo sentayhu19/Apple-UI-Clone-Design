@@ -29,7 +29,7 @@ const show = ref(false);
         </div>
     </nav>
 
-        <nav class="bg-black md:hidden w-full h-[100vh] " v-if="show" >
+        <nav class="bg-black md:hidden w-full h-[100vh] overflow-y-auto overflow-hidden z-50 top-0  fixed" v-if="show" >
             <div class="flex w-96 items-center h-10">
             <p class="text-white p-5" @click="show = !show" >X</p>
             <p class="text-white m-auto">Apple logo</p>
