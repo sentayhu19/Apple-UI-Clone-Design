@@ -1,6 +1,6 @@
 <template>
     <section class="bg-[#F5F5F7] p-7 text-[#AAAAAD] text-[14px]">
-<div>
+<div class="font-normal">
 <p class="pb-3">
     To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. 
     Update to the latest version by going to Settings > General > Software Update. Tap Download and Install.</p>
@@ -16,64 +16,64 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
     <div class="pt-5 border-b">
         <div class="border-b">
            <div class="flex justify-between"> 
-            <p>Shop and Learn</p>
+            <p class="pb-2">Shop and Learn</p>
             <p>+</p>
         </div>
         </div>
         <div class="border-b">
             <div class="flex justify-between"> 
-            <p>Services</p>
+            <p class="pb-2">Services</p>
             <p>+</p>
         </div>
         </div>
         <div class="border-b">
             <div class="flex justify-between"> 
-            <p>Account</p>
+            <p class="pb-2">Account</p>
             <p>+</p>
         </div>
             </div>
         <div class="border-b">
             <div class="flex justify-between"> 
-            <p>Shop and Learn</p>
+            <p class="pb-2">Shop and Learn</p>
             <p>+</p>
         </div>
-            Apple Store</div>
+            </div>
         <div class="border-b">
             <div class="flex justify-between"> 
-            <p>Shop and Learn</p>
+            <p class="pb-2">Apple Store</p>
             <p>+</p>
         </div>
-            For Business</div>
+            </div>
         <div class="border-b">
             <div class="flex justify-between"> 
-            <p>Shop and Learn</p>
+            <p class="pb-2">For Business</p>
             <p>+</p>
         </div>
-            For Education</div>
+            </div>
         <div class="border-b">
             <div class="flex justify-between"> 
-            <p>Shop and Learn</p>
+            <p class="pb-2">For Education</p>
             <p>+</p>
         </div>
-            For Healthcare</div>
+            </div>
         <div class="border-b">
             <div class="flex justify-between"> 
-            <p>Shop and Learn</p>
+            <p class="pb-2">For Healthcare</p>
             <p>+</p>
         </div>
-            For Govrnment</div>
+            </div>
         <div class="border-b">
             <div class="flex justify-between"> 
-            <p>Shop and Learn</p>
+            <p class="pb-2">For Govrnment</p>
             <p>+</p>
         </div>
-            Apple values</div>
+            </div>
         <div class="border-b">
             <div class="flex justify-between"> 
-            <p>Shop and Learn</p>
+            <p class="pb-2">About Apple</p>
             <p>+</p>
         </div>
-            About Apple</div>
+            </div>
     </div>
 
 </div>
