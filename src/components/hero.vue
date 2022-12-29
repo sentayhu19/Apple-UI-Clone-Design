@@ -134,10 +134,8 @@
         </div>
         <div>
     <div    v-if="movies.length > 0">
-        <div class="flex overflow-x-auto max-h-[430px] scrollbar-hide mt-5">
+        <div class="flex overflow-x-auto  scrollbar-hide mt-5">
       <div class="min-w-[350px]" v-for="movie in movies" :key="movie.id" >
-        
-         
           <div class="relative z-10 text-center mt-[400px]">
             <img :src=" movie.thumbnail" class="h-[495px] max-w-[100%] absolute"/>
         <div class="relative mt-[40px] bg-slate-500 opacity-80">
