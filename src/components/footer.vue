@@ -77,5 +77,21 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
     </div>
 
 </div>
+<p class="pb-4">
+    More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE.
+</p>
+<p class="pb-4">
+    United States
+</p>
+<p>
+    Copyright © 2021 Apple Inc. All rights reserved.
+</p>
+<ul class="flex flex-wrap">
+    <li>Privacy Policy</li> |
+    <li>Terms of Use</li> |
+    <li>Sales and Refunds</li> |
+    <li>Legal</li> |
+    <li>Site Map</li>
+</ul>
     </section>
 </template>
