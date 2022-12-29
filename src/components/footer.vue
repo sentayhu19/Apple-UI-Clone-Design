@@ -12,7 +12,7 @@ Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.</p>
 Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
 </p>
 </div>
-<div class="border-t mt-5  ">
+<div class="border-t mt-5 text-center ">
     <div class="pt-5 border-b">
         <div class="border-b">
            <div class="flex justify-between"> 
