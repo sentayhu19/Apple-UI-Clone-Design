@@ -2,7 +2,7 @@
 
 This project is a clone of the user interface on Apple's website, built using Vue.js and Tailwind CSS. The goal of the project is to recreate the look and feel of the original site as closely as possible, while still maintaining a high level of functionality and usability.
 
-## Live demo comming soon
+## Live demo comming soon ⌛
 
 ## Recommended IDE Setup
 
