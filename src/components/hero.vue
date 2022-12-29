@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="pt-12">
         <div class="flex flex-col text-center pt-5">
             <h1 class="text-[32px] font-bold">iPhone 14</h1>
             <p class="text-[19px]">Big and bigger</p>

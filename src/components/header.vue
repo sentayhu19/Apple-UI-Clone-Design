@@ -21,7 +21,7 @@ const show = ref(false);
         </ul>
     </nav>
   
-    <nav v-if="!show" class="bg-[#333] h-[45px] pl-5 pr-5">
+    <nav v-if="!show" class="backdrop-blur-sm bg-[#333] h-[45px] pl-5 pr-5 fixed w-full opacity-90 z-50 ">
         <div class="flex items-center justify-between ">
         <button @click="show = true"><p class="text-[#AEAEAE] text-3xl">=</p></Button>
             <p class="text-[#AEAEAE]">Apple logo</p>
