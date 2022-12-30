@@ -89,7 +89,8 @@
                 </div>
                 </div>    
             </div>
-            <img src="../assets/watch-home.png" class="w-full h-full"/>
+            <img src="../assets/watch-home.png" class="w-full h-full md:hidden "/>
+            <img src="../assets/watch-list-big.png" class="w-full h-full hidden md:block"/>
         </div>
         <div class="mt-3 md:h-[440px]">
             <div class="bg-black h-30 pt-5 ">
@@ -104,7 +105,8 @@
                 </div>
                 </div>    
             </div>
-            <img src="../assets/airpods-home.png" class="w-full h-full"/>
+            <img src="../assets/airpods-home.png" class="w-full h-full md:hidden"/>
+            <img src="../assets/airpods-big.png" class="w-full h-full hidden md:block"/>
         </div>
         <div class="mt-3 md:h-[440px]" >
             <div class="bg-[#FBFBFD] h-30 pt-5 ">
