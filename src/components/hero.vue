@@ -24,7 +24,7 @@
 
         </div>
        
-        <div class="mt-3 md:h-[440px]">
+        <div class="mt-2 md:h-[440px]">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -42,7 +42,7 @@
             <img src="../assets/whatch-home.png" class="w-full h-full md:hidden"/>
             <img src="../assets/watch-big.png" class="w-full h-full hidden md:block"/>
         </div>
-        <div class="w-full md:grid grid-rows-3 grid-flow-col gap-3">
+        <div class="w-full md:grid grid-rows-3 grid-flow-col gap-3 md:mt-36">
         <div class="mt-3 md:h-[440px]">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
