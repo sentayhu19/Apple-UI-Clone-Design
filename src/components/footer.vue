@@ -1,6 +1,6 @@
 <template>
-    <section class="bg-[#F5F5F7] p-7 sm:text-[#AAAAAD] text-[14px] md:text-[12px]">
-        <div class="md:m-auto w-full md:pl-[25%] md:pr-[20%]">
+    <section class="bg-[#F5F5F7] p-7 sm:text-[#AAAAAD] text-[14px] md:text-[12px] w-full">
+        <div class="md:m-auto w-full md:pl-[25%] md:pr-[25%]">
 <div class="font-normal text-[#7A7A7F]  ">
 <p class="pb-3">
     To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. 
@@ -77,8 +77,8 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
             </div>
     </div>
 </div>
-<div class="border-t sm:hidden md:block text-[12px] md:text-[#A8A8AA] font-normal mt-5">
-    <div class="flex gap-24 mt-5">
+<div class="border-t sm:hidden md:block text-[12px] md:text-black font-normal mt-5">
+    <div class="flex gap-[10%] mt-5">
 <div class="flex flex-col gap-2 ">
     <h3 class="text-[12px] font-semibold text-black">Shop and Learn</h3>
     <p>Store</p>
@@ -102,7 +102,7 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
     <p>AirTag</p>
     <p>Accessories</p>
     <p>Apple store</p>
-<div class="flex flex-col gap-2 mb-3">
+<div class="flex flex-col gap-2 mb-3 mt-3">
     <h3 class="text-[12px] font-semibold text-black">Account</h3>
     <p>Manage Your Apple ID</p>
     <p>Apple Store Account</p>
