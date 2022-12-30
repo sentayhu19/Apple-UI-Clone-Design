@@ -149,24 +149,24 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
 
 </div>
 <div class="font-normal text-[#7A7A7F]">
-<p class="pb-4">
+<p class="pb-4 border-b mb-2">
     More ways to shop: <span class="text-[#06c]">Find an Apple Store or other retailer </span> near you. Or call 1-800-MY-APPLE.
 </p>
 <p class="pb-4 md:hidden">
     United States
 </p>
 <div class="md:flex">
-<p>
+<p class="w-[70%]">
     Copyright © 2021 Apple Inc. All rights reserved.
 </p>
-<ul class="flex flex-wrap sm:gap-2 md:gap-8">
+<ul class="flex flex-wrap sm:gap-2 w-full md:gap-[2%] ">
     <li>Privacy Policy</li> | 
     <li>Terms of Use</li> | 
     <li>Sales and Refunds</li> | 
     <li>Legal</li> | 
     <li>Site Map</li>
 </ul>
-<p class="sm:hidden md:block md:pl-24">
+<p class="sm:hidden md:block md:pl-24 w-13">
     United States
 </p>
 </div>
