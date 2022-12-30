@@ -4,8 +4,8 @@
             <h1 class="sm:text-[32px] md:text-[56px] font-bold">iPhone 14</h1>
             <p class="sm:text-[19px] md:text-[28px]">Big and bigger.</p>
             <div class="flex m-auto gap-5">
-            <p class="text-[19px] text-[#06c] ">Learn more ></p>
-            <p class="text-[19px] text-[#06c] ">Buy ></p>
+            <p class="text-[19px] text-[#06c] cursor-pointer"><span class="hover:underline">Learn more</span> ></p>
+            <p class="text-[19px] text-[#06c] cursor-pointer"><span class="hover:underline">Buy</span> ></p>
         </div>
         <div>
             <!-- mob -->
@@ -19,7 +19,7 @@
         <div class="relative z-10 sm:mt-64 md:mt-96">          
             <h2 class="sm:text-[32px] md:text-[56px] text-[#f5f5f7] font-bold">Wow yourslef.</h2>
             <p class="text-[#f5f5f7] max-h-[240px] md:text-[28px]">Get he gift you've been eyeing all season.</p>
-            <p class="text-[#06c]">Shop ></p>
+            <p class="text-[#06c]"><span class="hover:underline font-bold">Shop</span> ></p>
         </div>
 
         </div>
@@ -34,8 +34,8 @@
                   
                     <h2 class="text-[#f5f5f7] md:text-[28px]">A healthy leap ahead.</h2>
                     <div class="flex text-center m-auto gap-5">
-                    <p class="text-[#06c]">Learn more ></p>
-                    <p class="text-[#06c]">Buy ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Learn more</span> ></p>
+                    <p class="text-[#06c]"><span class="hover:underline cursor-pointer">Buy</span> ></p>
                 </div>
                 </div>    
             </div>
@@ -51,8 +51,8 @@
                     <h3 class="text-[#f5f5f7]">Pro.Beyond.</h3>
                     </div>
                     <div class="flex text-center m-auto gap-5">
-                    <p class="text-[#06c]">Learn more ></p>
-                    <p class="text-[#06c]">Buy ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Learn more</span> ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Buy</span> ></p>
                 </div>
                 </div>    
             </div>
@@ -67,8 +67,8 @@
                     <p class="text-black">Lovable. Drawable. Magical.</p>
                     </div>
                     <div class="flex text-center m-auto">
-                    <p class="text-[#06c]">Learn more ></p>
-                    <p class="text-[#06c]">Buy ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Learn more</span> ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Buy</span> ></p>
                 </div>
                 </div>    
             </div>
@@ -84,8 +84,8 @@
                   
                     <h2 class="text-black">Adventure awaits.</h2>
                     <div class="flex text-center gap-5 m-auto ">
-                    <p class="text-[#06c]">Learn more ></p>
-                    <p class="text-[#06c]">Buy ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Learn more</span> ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Buy</span> ></p>
                 </div>
                 </div>    
             </div>
@@ -100,8 +100,8 @@
                     <p class="text-[#f5f5f7]">Rebuilt from the sound up.</p>
                     </div>
                     <div class="flex text-center gap-5 m-auto">
-                    <p class="text-[#06c]">Learn more ></p>
-                    <p class="text-[#06c]">Buy ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Learn more</span> ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Buy</span> ></p>
                 </div>
                 </div>    
             </div>
@@ -116,8 +116,8 @@
                     <p class="text-black">SuperCharged by M2</p>
                     </div>
                     <div class="flex text-center gap-5 m-auto">
-                    <p class="text-[#06c]">Learn more ></p>
-                    <p class="text-[#06c]">Buy ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Learn more</span> ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Buy</span> ></p>
                 </div>
                 </div>    
             </div>
@@ -131,8 +131,8 @@
                     <p class="text-black w-full">Get up to 3% Daily Cash back with every purchase</p>
                     </div>
                     <div class="flex text-center gap-5 m-auto">
-                    <p class="text-[#06c]">Learn more ></p>
-                    <p class="text-[#06c]">Apply now ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Learn more</span> ></p>
+                    <p class="text-[#06c] cursor-pointer"><span class="hover:underline">Apply now</span> ></p>
                 </div>
                 </div>    
             </div>
