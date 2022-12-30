@@ -1,6 +1,7 @@
 <template>
-    <section class="bg-[#F5F5F7] p-7 text-[#AAAAAD] text-[14px]">
-<div class="font-normal text-[#7A7A7F]">
+    <section class="bg-[#F5F5F7] p-7 text-[#AAAAAD] text-[14px] md:text-[12px]">
+        <div class="m-auto pl-[20%] pr-[20%]">
+<div class="font-normal text-[#7A7A7F]  ">
 <p class="pb-3">
     To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. 
     Update to the latest version by going to Settings > General > Software Update. Tap Download and Install.</p>
@@ -94,6 +95,7 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
     <li>Legal</li> | 
     <li>Site Map</li>
 </ul>
+</div>
 </div>
     </section>
 </template>
