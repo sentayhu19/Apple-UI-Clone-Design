@@ -1,17 +1,21 @@
 <template>
     <div class="pt-12">
         <div class="flex flex-col text-center pt-5">
-            <h1 class="text-[32px] font-bold">iPhone 14</h1>
-            <p class="text-[19px]">Big and bigger</p>
+            <h1 class="sm:text-[32px] md:text-[56px] font-bold">iPhone 14</h1>
+            <p class="sm:text-[19px] md:text-[28px]">Big and bigger</p>
             <div class="flex m-auto">
             <p class="text-[19px] text-[#06c] ">Learn more ></p>
             <p class="text-[19px] text-[#06c] ">Buy ></p>
         </div>
         <div>
-            <img src="../assets/iphone14-hero-sec.png" class="h-[450px] w-full" />
+            <!-- mob -->
+            <img src="../assets/iphone14-hero-sec.png" class="h-[450px] w-full md:hidden"  />  
+            <!-- desk -->
+            <img src="../assets/iphone-14-bg.png" class="h-[450px] w-full hidden md:block"  />
         </div>
         <div>
-            <img  src="../assets/gift-home.png" class="h-[360px] w-full absolute z-0 "/>
+            <img  src="../assets/gift-home.png" class="h-[360px] w-full absolute z-0 md:hidden "/>
+            <img src="../assets/gift-big.png" class="h-[360px] w-full absolute z-0 hidden md:block "/>
         <div class="relative z-10 mt-64">          
             <h2 class="text-[32px] text-[#f5f5f7]">Wow yourslef.</h2>
             <p class="text-[#f5f5f7] max-h-[240px]">Get he gift you've been eyeing all season.</p>
@@ -19,6 +23,7 @@
         </div>
 
         </div>
+       
         <div class="mt-3">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
@@ -34,8 +39,10 @@
                 </div>
                 </div>    
             </div>
-            <img src="../assets/whatch-home.png" class="w-full h-full"/>
+            <img src="../assets/whatch-home.png" class="w-full h-full md:hidden"/>
+            <img src="../assets/watch-big.png" class="w-full h-full hidden md:block"/>
         </div>
+        <div class="md:grid grid-rows-3 grid-flow-col gap-3">
         <div class="mt-3">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
@@ -130,7 +137,7 @@
             </div>
             <img src="../assets/card-home.png" class="w-full h-full"/>
         </div>
-        
+        </div>
         </div>
         <div>
     <div    v-if="movies.length > 0">
