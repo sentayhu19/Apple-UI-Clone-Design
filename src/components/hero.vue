@@ -160,7 +160,7 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
 import axios from 'axios';
       export default {
   name: 'MovieList',
