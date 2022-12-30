@@ -93,14 +93,16 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
 </div>
 <div class="flex flex-col gap-2">
     <h3 class="text-[12px] font-semibold text-black ">Servces</h3>
-    <p>Store</p>
-    <p>Mac</p>
-    <p>iPhone</p>
-    <p>Watch</p>
-    <p>AirPods</p>
-    <p>TV & Home</p>
-    <p>AirTag</p>
-    <p>Accessories</p>
+    <p>Apple Music</p>
+    <p>Apple TV+</p>
+    <p>Apple Fitness+</p>
+    <p>Apple News+</p>
+    <p>Apple Arcade</p>
+    <p>iCloud</p>
+    <p>Apple One</p>
+    <p>Apple Card</p>
+    <p>Apple Books</p>
+    <p>Apple Podcast</p>
     <p>Apple store</p>
 <div class="flex flex-col gap-2 mb-3 mt-3">
     <h3 class="text-[12px] font-semibold text-black">Account</h3>
@@ -111,37 +113,49 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
 </div>
 <div class="flex flex-col gap-2">
     <h3 class="text-[12px] font-semibold text-black">Apple Store</h3>
-    <p>Store</p>
-    <p>Mac</p>
-    <p>iPhone</p>
-    <p>Watch</p>
-    <p>AirPods</p>
-    <p>TV & Home</p>
-    <p>AirTag</p>
-    <p>Accessories</p>
-    <p>Gift Cards</p>
+    <p>Find Store</p>
+    <p>Genius Bar</p>
+    <p>Today at Apple</p>
+    <p>Apple Camp</p>
+    <p>Apple Store App</p>
+    <p>Refurbished and Clearance</p>
+    <p>Financing</p>
+    <p>Apple Trade In</p>
+    <p>Order Status</p>
+    <p>Shopping Help</p>
 </div>
 <div class="flex flex-col gap-2">
     <h3 class="text-[12px] font-semibold text-black">For Business</h3>
-    <p>Store</p>
-    <p>Mac</p>
-    <p>iPhone</p>
-    <p>Watch</p>
-    <p>AirPods</p>
-    <p>TV & Home</p>
-    <p>AirTag</p>
-    <p>Accessories</p>
-    <p>Gift Cards</p>
+    <p>Apple and Business</p>
+    <p>Shop for Business</p>
+    <div class="flex flex-col gap-2 mb-3 mt-3">
+    <h3 class="text-[12px] font-semibold text-black">For Education</h3>
+    <p>Apple and Education</p>
+    <p>Shop for K-12</p>
+    <p>Shop for College</p>
+</div>
+<div class="flex flex-col gap-2 mb-3 mt-3">
+    <h3 class="text-[12px] font-semibold text-black">For Health</h3>
+    <p>Apple in Healthcare</p>
+    <p>Health on Apple Watch</p>
+    <p>Health Records on iPhone</p>
+</div>
+<div class="flex flex-col gap-2 mb-3 mt-3">
+    <h3 class="text-[12px] font-semibold text-black">For Government</h3>
+    <p>Shop for Government</p>
+    <p>Shop for Veterans and Military</p>
+</div>
+
 </div>
 <div class="flex flex-col gap-2">
     <h3 class="text-[12px] font-semibold text-black">Apple Values</h3>
-    <p>Store</p>
-    <p>Mac</p>
-    <p>iPhone</p>
-    <p>Watch</p>
-    <p>AirPods</p>
-    <p>TV & Home</p>
-    <p>AirTag</p>
+    <p>Accessibility</p>
+    <p>Education</p>
+    <p>Environment</p>
+    <p>Inclusion and Diversity</p>
+    <p>Privacy</p>
+    <p>Racial Equity and Justice</p>
+    <p>Supplier Responsibility</p>
     <p>Accessories</p>
     <p>Gift Cards</p>
 </div>
@@ -166,7 +180,7 @@ Learn more about how Apple Card applications are evaluated at support.apple.com/
     <li>Legal</li> | 
     <li>Site Map</li>
 </ul>
-<p class="sm:hidden md:block md:pl-24 w-13">
+<p class="sm:hidden md:block md:pl-24 w-18">
     United States
 </p>
 </div>
