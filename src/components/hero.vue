@@ -42,8 +42,8 @@
             <img src="../assets/whatch-home.png" class="w-full h-full md:hidden"/>
             <img src="../assets/watch-big.png" class="w-full h-full hidden md:block"/>
         </div>
-        <div class="md:grid grid-rows-3 grid-flow-col gap-3">
-        <div class="mt-3">
+        <div class="w-full md:grid grid-rows-3 grid-flow-col gap-3">
+        <div class="mt-3 md:h-[440px]">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -56,9 +56,10 @@
                 </div>
                 </div>    
             </div>
-            <img src="../assets/iphone-home.png" class="w-full h-full"/>
+            <img src="../assets/iphone-home.png" class="w-full h-full md:hidden"/>
+            <img src="../assets/iphone14-list-big.png" class="w-full h-full hidden md:block"/>
         </div>
-        <div class="mt">
+        <div class="mt-3 md:h-[440px]">
             <div class="bg-[#FBFBFB] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -73,7 +74,7 @@
             </div>
             <img src="../assets/ipad-home.png" class="w-full h-full"/>
         </div>
-        <div class="mt-3">
+        <div class="mt-3 md:h-[440px]" >
             <div class="bg-[#FBFBFB] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -90,7 +91,7 @@
             </div>
             <img src="../assets/watch-home.png" class="w-full h-full"/>
         </div>
-        <div class="mt-3">
+        <div class="mt-3 md:h-[440px]">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -105,7 +106,7 @@
             </div>
             <img src="../assets/airpods-home.png" class="w-full h-full"/>
         </div>
-        <div class="mt-3" >
+        <div class="mt-3 md:h-[440px]" >
             <div class="bg-[#FBFBFD] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -120,7 +121,7 @@
             </div>
             <img src="../assets/mackbookair-home.png" class="w-full h-full"/>
         </div>
-        <div class="mt-3">
+        <div class="mt-3 md:h-[440px]">
             <div class="bg-[#FBFBFD] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
