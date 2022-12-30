@@ -5,7 +5,7 @@ const show = ref(false);
 
 <template>
     <!-- Desk -->
-    <nav class="sm:hidden md:block">
+    <nav class="fixed w-full sm:hidden md:block opacity-90 backdrop-blur-sm">
         <ul class="bg-[#333] fixed m-auto flex justify-center  gap-7 top-0 w-full h-[44px] items-center pl-12 pr-12">
             <li class="text-[#AEAEAE] "><font-awesome-icon class="text-white-500" icon="fa-brands fa-apple" /></li>
             <li class="text-[#AEAEAE] text-[12px]">Store</li>
@@ -21,7 +21,7 @@ const show = ref(false);
         </ul>
     </nav>
   
-    <nav v-if="!show" class="backdrop-blur-sm bg-[#333] h-[45px] pl-5 pr-5 fixed w-full opacity-90 z-50 ">
+    <nav v-if="!show" class="backdrop-blur-sm bg-[#333] h-[45px] md:hidden pl-5 pr-5 fixed w-full opacity-90 z-50 ">
         <div class="flex items-center justify-between ">
         <button @click="show = true"><p class="text-[#AEAEAE] text-3xl">=</p></Button>
             <p class="text-[#AEAEAE]">Apple logo</p>

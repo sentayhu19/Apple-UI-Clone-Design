@@ -65,8 +65,6 @@
                     <h2 class="text-black text-3xl">iPad</h2>
                     <p class="text-black">Lovable. Drawable. Magical.</p>
                     </div>
-                  
-                  
                     <div class="flex text-center m-auto">
                     <p class="text-[#06c]">Learn more ></p>
                     <p class="text-[#06c]">Buy ></p>
