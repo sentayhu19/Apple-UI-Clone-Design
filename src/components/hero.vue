@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-12">
+    <div class="pt-12 bg-[#FBFBFD]">
         <div class="flex flex-col text-center pt-5">
             <h1 class="sm:text-[32px] md:text-[56px] font-bold">iPhone 14</h1>
             <p class="sm:text-[19px] md:text-[28px]">Big and bigger</p>
@@ -13,12 +13,12 @@
             <!-- desk -->
             <img src="../assets/iphone-14-bg.png" class="h-[450px] w-full hidden md:block"  />
         </div>
-        <div class="md:mb-16">
+        <div class="md:mb-6">
             <img  src="../assets/gift-home.png" class="h-[360px] w-full absolute z-0 md:hidden "/>
             <img src="../assets/gift-big.png" class="sm:h-[360px] md:h-[550px] w-full absolute z-0 hidden md:block "/>
         <div class="relative z-10 sm:mt-64 md:mt-96">          
-            <h2 class="text-[32px] text-[#f5f5f7]">Wow yourslef.</h2>
-            <p class="text-[#f5f5f7] max-h-[240px]">Get he gift you've been eyeing all season.</p>
+            <h2 class="sm:text-[32px] md:text-[56px] text-[#f5f5f7] font-bold">Wow yourslef.</h2>
+            <p class="text-[#f5f5f7] max-h-[240px] md:text-[28px]">Get he gift you've been eyeing all season.</p>
             <p class="text-[#06c]">Shop ></p>
         </div>
 
@@ -28,7 +28,7 @@
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
-                    <h2 class="text-[#f5f5f7] text-3xl">Watch</h2>
+                    <h2 class="text-[#f5f5f7] text-3xl font-bold">Watch</h2>
                     <p class="text-red-500">SERIES</p>
                     </div>
                   
@@ -43,11 +43,11 @@
             <img src="../assets/watch-big.png" class="w-full h-full hidden md:block"/>
         </div>
         <div class="md:grid grid-rows-3 grid-flow-col gap-3">
-        <div class="mt-3 order-1">
+        <div class="mt-3">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
-                    <h2 class="text-[#f5f5f7] text-3xl">iPhone 14 pro</h2>
+                    <h2 class="text-[#f5f5f7] sm:text-3xl md:text-[40px] font-bold">iPhone 14 pro</h2>
                     <h3 class="text-[#f5f5f7]">Pro.Beyond.</h3>
                     </div>
                     <div class="flex text-center m-auto gap-5">
@@ -62,7 +62,7 @@
             <div class="bg-[#FBFBFB] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
-                    <h2 class="text-black text-3xl">iPad</h2>
+                    <h2 class="text-black sm:text-3xl md:text-[40px] font-bold">iPad</h2>
                     <p class="text-black">Lovable. Drawable. Magical.</p>
                     </div>
                     <div class="flex text-center m-auto">
@@ -77,7 +77,7 @@
             <div class="bg-[#FBFBFB] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
-                    <h2 class="text-black text-3xl font-bold">Watch</h2>
+                    <h2 class="text-black sm:text-3xl md:text-[40px] font-bold">Watch</h2>
                     <p class="text-red-500 font-bold">ULTRA</p>
                     </div>
                   
@@ -94,7 +94,7 @@
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
-                    <h2 class="text-[#f5f5f7] text-3xl">AirPods Pro</h2>
+                    <h2 class="text-[#f5f5f7] sm:text-3xl md:text-[40px] font-bold">AirPods Pro</h2>
                     <p class="text-[#f5f5f7]">Rebuilt from the sound up.</p>
                     </div>
                     <div class="flex text-center gap-5 m-auto">
@@ -109,7 +109,7 @@
             <div class="bg-[#FBFBFD] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
-                    <h2 class="text-black font-bold text-3xl">MacBook Air</h2>
+                    <h2 class="text-black font-bold sm:text-3xl md:text-[40px] ">MacBook Air</h2>
                     <p class="text-black">SuperCharged by M2</p>
                     </div>
                     <div class="flex text-center gap-5 m-auto">
@@ -124,7 +124,7 @@
             <div class="bg-[#FBFBFD] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
-                    <h2 class="text-black font-bold text-3xl">Card</h2>
+                    <h2 class="text-black font-bold sm:text-3xl md:text-[40px]">Card</h2>
                     <p class="text-black w-full">Get up to 3% Daily Cash back with every purchase</p>
                     </div>
                     <div class="flex text-center gap-5 m-auto">
