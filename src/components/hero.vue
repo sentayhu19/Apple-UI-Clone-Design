@@ -24,7 +24,7 @@
 
         </div>
        
-        <div class="mt-3">
+        <div class="mt-3 md:h-[440px]">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -32,7 +32,7 @@
                     <p class="text-red-500">SERIES</p>
                     </div>
                   
-                    <h2 class="text-[#f5f5f7]">A healthy leap ahead.</h2>
+                    <h2 class="text-[#f5f5f7] md:text-[28px]">A healthy leap ahead.</h2>
                     <div class="flex text-center m-auto gap-5">
                     <p class="text-[#06c]">Learn more ></p>
                     <p class="text-[#06c]">Buy ></p>
@@ -141,7 +141,7 @@
         </div>
         </div>
         <div>
-    <div    v-if="movies.length > 0">
+    <div v-if="movies.length > 0">
         <div class="flex overflow-x-auto  scrollbar-hide mt-5 scroll-smooth">
       <div class="sm:min-w-[350px]" v-for="movie in movies" :key="movie.id" >
           <div class="relative z-10 text-center mt-[400px] w-full">

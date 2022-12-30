@@ -8,16 +8,16 @@ const show = ref(false);
     <nav class="fixed w-full sm:hidden md:block opacity-90 backdrop-blur-sm">
         <ul class="bg-[#333] fixed m-auto flex justify-center  gap-7 top-0 w-full h-[44px] items-center pl-12 pr-12">
             <li class="text-[#AEAEAE] "><font-awesome-icon class="text-white-500" icon="fa-brands fa-apple" /></li>
-            <li class="text-[#AEAEAE] text-[12px]">Store</li>
-            <li class="text-[#AEAEAE] text-[12px]">Mac</li>
-            <li class="text-[#AEAEAE] text-[12px]">iPad</li>
-            <li class="text-[#AEAEAE] text-[12px]">iPhone</li>
-            <li class="text-[#AEAEAE] text-[12px]">Watch</li>
-            <li class="text-[#AEAEAE] text-[12px]">AirPods</li>
-            <li class="text-[#AEAEAE] text-[12px]">Tv & Home</li>
-            <li class="text-[#AEAEAE] text-[12px]">Only on Apple</li>
-            <li class="text-[#AEAEAE] text-[12px]">Accessories</li>
-            <li class="text-[#AEAEAE] text-[12px]">Support</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Store</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Mac</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">iPad</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">iPhone</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Watch</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">AirPods</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Tv & Home</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Only on Apple</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Accessories</li>
+            <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Support</li>
         </ul>
     </nav>
   
