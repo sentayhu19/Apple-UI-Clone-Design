@@ -3,7 +3,7 @@
         <div class="flex flex-col text-center pt-5">
             <h1 class="sm:text-[32px] md:text-[56px] font-bold">iPhone 14</h1>
             <p class="sm:text-[19px] md:text-[28px]">Big and bigger</p>
-            <div class="flex m-auto">
+            <div class="flex m-auto gap-5">
             <p class="text-[19px] text-[#06c] ">Learn more ></p>
             <p class="text-[19px] text-[#06c] ">Buy ></p>
         </div>
@@ -43,7 +43,7 @@
             <img src="../assets/watch-big.png" class="w-full h-full hidden md:block"/>
         </div>
         <div class="md:grid grid-rows-3 grid-flow-col gap-3">
-        <div class="mt-3">
+        <div class="mt-3 order-1">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -58,7 +58,7 @@
             </div>
             <img src="../assets/iphone-home.png" class="w-full h-full"/>
         </div>
-        <div class="mt-3">
+        <div class="mt">
             <div class="bg-[#FBFBFB] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -105,11 +105,11 @@
             </div>
             <img src="../assets/airpods-home.png" class="w-full h-full"/>
         </div>
-        <div class="mt-3">
+        <div class="mt-3" >
             <div class="bg-[#FBFBFD] h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
-                    <h2 class="text-black font-bold text-3xl">MaacBook Air</h2>
+                    <h2 class="text-black font-bold text-3xl">MacBook Air</h2>
                     <p class="text-black">SuperCharged by M2</p>
                     </div>
                     <div class="flex text-center gap-5 m-auto">
@@ -140,8 +140,8 @@
         <div>
     <div    v-if="movies.length > 0">
         <div class="flex overflow-x-auto  scrollbar-hide mt-5 scroll-smooth">
-      <div class="min-w-[350px]" v-for="movie in movies" :key="movie.id" >
-          <div class="relative z-10 text-center mt-[400px]">
+      <div class="sm:min-w-[350px]" v-for="movie in movies" :key="movie.id" >
+          <div class="relative z-10 text-center mt-[400px] w-full">
             <img :src=" movie.thumbnail" class="h-[495px] max-w-[100%] absolute"/>
         <div class="relative mt-[40px] bg-slate-500 opacity-80">
           <p class="text-[#DAD7D8] font-bold">{{ movie.genere }}</p>
