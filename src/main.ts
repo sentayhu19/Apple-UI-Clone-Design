@@ -14,16 +14,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faBagShopping, faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faHatWizard } from '@fortawesome/free-solid-svg-icons'
+import { faApple } from '@fortawesome/free-brands-svg-icons';
+
 /* add icons to the library */
-library.add(faUserSecret)
+library.add(faUserSecret,faApple, faBagShopping )
 
-const app = createApp(App)
-
-
-app.use(createPinia())
-createApp(App)
-.component('font-awesome-icon', FontAwesomeIcon)
-app.use(router)
-
-app.mount('#app')
+const app = createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

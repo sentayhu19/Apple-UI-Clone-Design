@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+
 const show = ref(false);
 </script>
 
@@ -7,7 +8,9 @@ const show = ref(false);
     <!-- Desk -->
     <nav class="fixed w-full sm:hidden md:block opacity-90 backdrop-blur-sm">
         <ul class="bg-[#333] fixed m-auto flex justify-center  gap-7 top-0 w-full h-[44px] items-center pl-12 pr-12">
-            <li class="text-[#AEAEAE] "><font-awesome-icon class="text-white-500" icon="fa-brands fa-apple" /></li>
+            <li class="text-[#AEAEAE] hover:text-[#ccc9c9]">
+                <font-awesome-icon icon="fa-brands fa-apple" />
+            </li>
             <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Store</li>
             <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Mac</li>
             <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">iPad</li>
@@ -18,21 +21,23 @@ const show = ref(false);
             <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Only on Apple</li>
             <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Accessories</li>
             <li class="text-[#AEAEAE] text-[12px] hover:text-[#ccc9c9] cursor-pointer">Support</li>
+            <li><font-awesome-icon icon="fa-light fa-magnifying-glass" /></li>
         </ul>
     </nav>
-  
     <nav v-if="!show" class="backdrop-blur-sm bg-[#333] h-[45px] md:hidden pl-5 pr-5 fixed w-full opacity-90 z-50 ">
         <div class="flex items-center justify-between ">
         <button @click="show = true"><p class="text-[#AEAEAE] text-3xl">=</p></Button>
-            <p class="text-[#AEAEAE]">Apple logo</p>
-            <p class="text-[#AEAEAE]">Shop logo</p>
+            <p class="text-[#AEAEAE]"><font-awesome-icon icon="fa-brands fa-apple" /></p>
+            <p class="text-[#AEAEAE]"><font-awesome-icon icon="fa-thin faBagShopping" /></p>
         </div>
     </nav>
 
         <nav class="bg-black md:hidden w-full h-[100vh] overflow-y-auto overflow-hidden z-50 top-0  fixed" v-if="show" >
             <div class="flex w-96 items-center h-10">
             <p class="text-white p-5" @click="show = !show" >X</p>
-            <p class="text-white m-auto">Apple logo</p>
+            <p class="text-[#AEAEAE] m-auto">
+                <font-awesome-icon icon="fa-brands fa-apple" />
+            </p>
         </div>
     
         <input type='text' class="bg-[#1D1D1F] w-[92%] h-[40px] m-auto ml-[15px] mr-[12px] rounded-lg" placeholder="Search apple.com"/>

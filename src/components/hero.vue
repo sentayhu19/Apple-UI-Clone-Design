@@ -2,7 +2,7 @@
     <div class="pt-12 bg-[#FBFBFD]">
         <div class="flex flex-col text-center pt-5">
             <h1 class="sm:text-[32px] md:text-[56px] font-bold">iPhone 14</h1>
-            <p class="sm:text-[19px] md:text-[28px]">Big and bigger</p>
+            <p class="sm:text-[19px] md:text-[28px]">Big and bigger.</p>
             <div class="flex m-auto gap-5">
             <p class="text-[19px] text-[#06c] ">Learn more ></p>
             <p class="text-[19px] text-[#06c] ">Buy ></p>
