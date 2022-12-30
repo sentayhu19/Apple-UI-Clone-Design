@@ -6,7 +6,7 @@ const show = ref(false);
 
 <template>
     <!-- Desk -->
-    <nav class="fixed w-full sm:hidden md:block opacity-90 backdrop-blur-sm">
+    <nav class="fixed w-full sm:hidden md:block opacity-90 backdrop-blur-sm z-50">
         <ul class="bg-[#333] fixed m-auto flex justify-center  gap-7 top-0 w-full h-[44px] items-center pl-12 pr-12">
             <li class="text-[#AEAEAE] hover:text-[#ccc9c9]">
                 <font-awesome-icon icon="fa-brands fa-apple" />

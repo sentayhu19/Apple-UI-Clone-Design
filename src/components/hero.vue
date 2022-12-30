@@ -14,8 +14,8 @@
             <img src="../assets/iphone-14-bg.png" class="h-[450px] w-full hidden md:block"  />
         </div>
         <div class="md:mb-6">
-            <img  src="../assets/gift-home.png" class="h-[360px] w-full absolute z-0 md:hidden "/>
-            <img src="../assets/gift-big.png" class="sm:h-[360px] md:h-[550px] w-full absolute z-0 hidden md:block "/>
+            <img  src="../assets/gift-home.png" class="h-[360px] w-full absolute  md:hidden "/>
+            <img src="../assets/gift-big.png" class="sm:h-[360px] md:h-[550px] w-full absolute  hidden md:block "/>
         <div class="relative z-10 sm:mt-64 md:mt-96">          
             <h2 class="sm:text-[32px] md:text-[56px] text-[#f5f5f7] font-bold">Wow yourslef.</h2>
             <p class="text-[#f5f5f7] max-h-[240px] md:text-[28px]">Get he gift you've been eyeing all season.</p>
