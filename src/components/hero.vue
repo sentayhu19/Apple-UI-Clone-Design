@@ -142,11 +142,11 @@
         </div>
         <div>
     <div v-if="movies.length > 0">
-        <div class="flex overflow-x-auto scrollbar-hide md:mt-36 ">
+        <div class="flex overflow-x-auto scrollbar-hide ">
         <div class="sm:min-w-[350px]" v-for="movie in movies" :key="movie.id" >
-          <div class="relative z-10 text-center mt-[400px] w-full">
-            <img :src=" movie.thumbnail" class="h-[495px] sm:max-w-[100%] md:w-400px absolute"/>
-        <div class="relative mt-[40px] bg-slate-500 opacity-80">
+          <div class=" z-10 text-center mt-[400px] w-full">
+            <img :src=" movie.thumbnail" class="h-[495px] sm:max-w-[100%] md:w-400px "/>
+        <div class="z-10 relative mt-[-80px] opacity-80">
           <p class="text-[#DAD7D8] font-bold">{{ movie.genere }}</p>
           <p class="text-[#DAD7D8] font-bold">{{ movie.description }}</p>
           <button class="bg-white text-black border-red-100 rounded-[4px] font-bold ">Stream now ▷ </button>
@@ -178,3 +178,8 @@ import axios from 'axios';
   },
 };
 </script>
+<style>
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+</style>
