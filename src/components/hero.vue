@@ -24,7 +24,7 @@
 
         </div>
        
-        <div class="mt-2 md:h-[440px]">
+        <div class="md:mt-2 sm:mt-3  md:h-[440px]">
             <div class="bg-black h-30 pt-5 ">
                 <div class="flex flex-col">
                     <div class="flex flex-col">
@@ -142,7 +142,7 @@
         </div>
         <div>
     <div v-if="movies.length > 0">
-        <div class="flex overflow-x-auto scrollbar-hide ">
+        <div class="flex overflow-x-auto scrollbar-hide overscroll-auto ">
         <div class="sm:min-w-[350px]" v-for="movie in movies" :key="movie.id" >
           <div class=" z-10 text-center mt-[400px] w-full">
             <img :src=" movie.thumbnail" class="h-[495px] sm:max-w-[100%] md:w-400px "/>
