@@ -141,7 +141,7 @@
         </div>
         </div>
         <div>
-    <div v-if="movies.length > 0">
+    <!-- <div v-if="movies.length > 0"> -->
         <div class="flex overflow-x-auto scrollbar-hide overscroll-auto ">
         <div class="sm:min-w-[350px]" v-for="movie in movies" :key="movie.id" >
           <div class=" z-10 text-center mt-[400px] w-full">
@@ -154,7 +154,7 @@
         </div>
     </div>
 </div>
-    </div>
+    <!-- </div> -->
   </div>
         
     </div>
@@ -170,9 +170,8 @@ import axios from 'axios';
     };
   },
   created() {
-    // Fetch movie data from a JSON file or API
+    // Fetch movie data from a JSON file in src
     axios.get('../src/assets/data.json').then((response) => {
-         console.log("RESPONSE:  ",response.data)
       this.movies = response.data;
     });
   },
