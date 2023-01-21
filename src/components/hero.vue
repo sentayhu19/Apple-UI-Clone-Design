@@ -161,7 +161,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import data from '../assets/data.json';
       export default {
   name: 'MovieList',
   data() {
@@ -170,10 +170,7 @@ import axios from 'axios';
     };
   },
   created() {
-    // Fetch movie data from a JSON file in src
-    axios.get('../src/assets/data.json').then((response) => {
-      this.movies = response.data;
-    });
+    this.movies = data;
   },
 };
 </script>
